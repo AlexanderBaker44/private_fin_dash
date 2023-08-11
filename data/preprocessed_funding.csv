@@ -1,0 +1,169 @@
+,Company,Type of transaction,Sector,Country,amount_preprocessed,pkey
+0,Firefly Aerospace,M&A,Launch,,,0
+1,Orbex,"Government, Investment, Strategic",Launch,UK,40.0,1
+2,Latitude,"Government, Investment",Launch,France,10.0,2
+3,Spinlaunch,Investment,Launch,US,71.0,3
+4,InnoSpace,Investment,Launch,South Korea,15.7,4
+5,Skyroot,Investment,Launch,India,51.0,5
+6,Temis,M&A,Components,Italy,,6
+7,HyPr Space,Investment,Launch,France,,7
+8,Pythom Space,Investment,Launch,Sweden,0.7,8
+9,MaiaSpace,Corporate Investment,,France,,9
+10,D-Orbit,CLA,OTV,Italy,51.0,10
+11,D-Orbit,Cancelled SPAC,OTV,,,11
+12,Impulse Space,Investment,OTV,US,20.0,12
+13,Impulse Space,Investment,OTV,US,10.0,13
+14,Atmos Space,Investment,OTV,US,,14
+15,Porkshop,Failure,OTV,,,15
+16,Plasmos,In-kind investment,OTV,,,16
+17,Benchmark Space Systems,CLA,Propulsion,US,,17
+18,Alameda Applied Sciences Corporation,M&A,Propulsion,US,,18
+19,Morpheus Space,Investment,Propulsion,Germany,28.0,19
+20,Ion-X,Investment,Propulsion,France,3.8,20
+21,Terran Orbital,Strategic,Satellite Manufacturing,US,100.0,21
+22,Terran Orbital,"Investment, Strategic",Satellite Manufacturing,US,,22
+23,GomSpace,Government,Satellite Manufacturing,Denmark,,23
+24,York Space Systems,M&A,Satellite Manufacturing,US,,24
+25,AerospaceLabs,"Government, Investment, Strategic",Satellite Manufacturing,Belgium,40.0,25
+26,Loft,,"Other Business Models, Satellite Manufacturing",US,,26
+27,Apax,Investment,Satellite Manufacturing,US,7.7,27
+28,Reflex Aerospace,Investment,Satellite Manufacturing,Germany,,28
+29,U-Space,"Government, Investment",Satellite Manufacturing,France,,29
+30,Celestia Aerospace,Sketchy investment,Satellite Manufacturing,,,30
+31,Solestial,"Investment, Strategic",Components,US,10.0,31
+32,QinetiQ,M&A,,,,32
+33,Slingshot Aerospace,M&A,,,,33
+34,Slingshot Aerospace,M&A,,,,34
+35,SlingShot Aerospace,Investment,SSA,US,25.0,35
+36,Slingshot Aerospace,Investment,SSA,US,40.8,36
+37,Scout Space,Investment,SSA,US,,37
+38,Neura Space,Investment,SSA,Portugal,2.5,38
+39,Neura Space,"Government, Investment",SSA,Portugal,,39
+40,Okapi Orbits,"Investment, Strategic",SSA,Germany,5.5,40
+41,Vyoma,Investment,SSA,Germany,,41
+42,StellSpace,Investment,Software,US,3.1,42
+43,Epsilon 3,Investment,Software,US,2.7,43
+44,Epsilon 3,Investment,Software,US,15.0,44
+45,Charter Space,Investment,Software,UK,1.2,45
+46,Hostmi,M&A,Software,Germany,,46
+47,LeanSpace,Investment,Software,France,6.4,47
+48,Cysec,"Investment, Strategic","Cybersecurity, Software",Switzerland,4.5,48
+49,Antaris,Investment,,US,,49
+50,Aerojet Rocketdyne,M&A,,US,,50
+51,Tactical Data Links,M&A,,US,,51
+52,Orolioa,M&A,,,,52
+53,Syrlinks,M&A,,,,53
+54,Captronic Systems,M&A,,India,,54
+55,DSI Datasicherheit,M&A,,Germany,,55
+56,Firehawk Aerospace,"Investment, Strategic",Propulsion,US,15.5,56
+57,NORSS,M&A,,UK,,57
+58,X-Bow Launch System,"Investment, Strategic",Propulsion,US,27.0,58
+59,Volansi,M&A,,US,,59
+60,SpaceX,Investment,,US,,60
+61,Mangata Networks,"Government, Investment, Strategic",Megaconstellations,US,33.0,61
+62,E-Space,Investment,Megaconstellations,US,50.0,62
+63,CommAgility,M&A,,US,,63
+64,Kymeta,"Investment, Strategic",User Terminals,US,,64
+65,SatixFy,SPAC,,,,65
+66,Cesium Astro,"Investment, Strategic","Components, User Terminals",US,60.0,66
+67,Anywaves,Investment,User Terminals,France,,67
+68,Thorium Space technology,Investment,Components,Poland,1.3,68
+69,Utvate,Investment,User Terminals,US,,69
+70,Hubble Networks,Investment,Satellite IoT,US,,70
+71,OQ Tech,"Investment, Strategic",Satellite IoT,Luxembourg,13.0,71
+72,Satelliot,"Investment, Strategic",Satellite IoT,Spain,10.0,72
+73,Fossa Systems,"Government, Investment",,Spain,,73
+74,Hiber,Failed Acquisition,,,,74
+75,OneWeb,M&A,,,,75
+76,DRS Leonardo Global Enterprise Solutions,M&A,,,,76
+77,Hispamar,M&A,,,,77
+78,Axxess Networks,M&A,,,,78
+79,eSat Global,"Investment, Strategic",Satellite IoT,US,,79
+80,Kacific,SPAC Speculation,,,,80
+81,Infostellar,Investment,GSaaS,,,81
+82,Atlas,Investment,GSaaS,,,82
+83,Contec,Investment,GSaaS,,,83
+84,Mynaric,"Investment, Strategic",Optical Communications,Germany,,84
+85,Cailabs,"Government, Investment",Optical Communications,France,,85
+86,Miratlas,Investment,"Optical Communications, Software",France,,86
+87,Salo Sciences,M&A,,,,87
+88,Officina Stellare,"Investment, Strategic","Components, EO Hardware",Italy,,88
+89,Bayanat,IPO,,UAE,,89
+90,Satlantis,Investment,EO Hardware,Spain,,90
+91,EOI Data,trade arrangement,EO Upstream,US,,91
+92,Absolut Group,"Corporate Investment, Investment, Strategic",EO Upstream,France,,92
+93,ConstellR,"Government, Investment",EO Upstream,Germany,10.0,93
+94,ScanWorld,M&A,EO Upstream,Belgium,,94
+95,Wyvern,Investment,"EO Upstream, Hyperspectral",Canada,,95
+96,GalaxyEye,Investment,EO Upstream,India,3.5,96
+97,Array labs,Investment,EO Upstream,US,,97
+98,Nara Space,Investment,EO Upstream,South Korea,7.8,98
+99,Xplore,Investment,EO Upstream,US,,99
+100,OroraTech,"Investment, Strategic",EO Upstream,Germany,15.0,100
+101,MuonSpace,Investment,EO Upstream,US,25.0,101
+102,Albedo,Investment,EO Upstream,US,48.0,102
+103,Pixxel,Investment,"EO Upstream, Hyperspectral",US,25.0,103
+104,SatelliteVu,"Investment, Strategic","EO Upstream, Thermal",UK,,104
+105,Capella Space,Investment,"EO Upstream, SAR",US,97.0,105
+106,Synspective,"Corporate Investment, Investment","EO Upstream, SAR",Japan,100.0,106
+107,Iceye,"Corporate Investment, Government, Investment, Strategic","EO Upstream, SAR",Finland,136.0,107
+108,Skyfi,Investment,EO downstream,US,7.1,108
+109,Ursa Space,Investment,EO downstream,US,16.0,109
+110,Kayrros,"Government, Investment",EO downstream,France,40.0,110
+111,Descartes Labs,M&A,,,,111
+112,SatSure,"Investment, Strategic",EO downstream,India,,112
+113,Old City Innovations,M&A,,,,113
+114,CropTrails,M&A,,,,114
+115,Picterra,Investment,EO downstream,Switzerland,6.5,115
+116,LiveEO,"Government, Investment",EO downstream,Germany,17.0,116
+117,AiDash,CLA,EO applications,US,10.0,117
+118,Neurafarms.ai,M&A,,,,118
+119,Overstory,Investment,EO downstream,Netherlands,,119
+120,Orbica,Investment,EO downstream,New Zeeland,2.8,120
+121,ChAI,Investment,EO applications,UK,,121
+122,Planet Watchers,Investment,"EO downstream, SAR",Israel,10.0,122
+123,Qunnect,"Investment, Strategic",Quantum,US,,123
+124,AstroForge,Investment,Asteroid Mining,US,13.0,124
+125,Xona Space Systems,"Investment, Strategic",LEO PNT,US,15.0,125
+126,Outpost,Investment,Return from Space,US,,126
+127,Aurora Insight,M&A,,,,127
+128,Blackshark.ai,M&A,,,,128
+129,MAxar,"M&A, PE",,,,129
+130,Tommorow.io,Cancelled SPAC,,US,,130
+131,Jua,Investment,Weather,Switzerland,2.5,131
+132,Airphoton,M&A,,,,132
+133,Grasp,Investment,Weather,France,,133
+134,Dawn,Investment,"Propulsion, Spaceplanes",,,134
+135,Hermeus,"Government, Investment, Strategic",Spaceplanes,US,100.0,135
+136,Radian Aerospace,Investment,Spaceplanes,US,27.5,136
+137,Destinus,"Government, Investment",Spaceplanes,Switzerland,29.0,137
+138, Venus Aerospace,Investment,Spaceplanes,US,20.0,138
+139,Quantum Space,Investment,Lunar Economy,US,15.0,139
+140,Acquarian,"Failure, M&A",,,,140
+141,Masten Space Technology,Failure,,,,141
+142,Lunar Outpost,Investment,Lunar Economy,US,12.0,142
+143,Intuitive Machines,SPAC,Lunar Economy,,,143
+144,Gravitics,Investment,Space Stations,US,20.0,144
+145,Interstellar Labs,,,,,145
+146,Yuri,,,,,146
+147,Axiom,,,,,147
+148,ValiSpace,,,,,148
+149,Vestigo Aerospace,,,,,149
+150,SpaceDots,,,,,150
+151,LongShot,,,,,151
+152,Titan Space,,,,,152
+153,ArkEdgeSpace,,,,,153
+154,Cognitive3D,,,,,154
+155,VioletLabs,,,,,155
+156,Irreo,,,,,156
+157,Eolian,,,,,157
+158,Apogeo Space,,,,,158
+159,Zeno Power,,,,,159
+160,Adranos,,,,,160
+161,Nuview,,,,,161
+162,Ubotica,,,,,162
+163,Connectica,,,,,163
+164,Cosmic Shielding Corp,,,,,164
+165,Skyloom,,,,,165
+166,Sen,,,,,166
+167,Adranos,,,,,167
