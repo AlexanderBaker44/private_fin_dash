@@ -16,7 +16,6 @@ tab1,tab2,tab3 = st.tabs(['General','Geographic','Single Companies'])
 
 #general metrics count and total
 with tab1:
-    st.write(df.head())
     col1,col2 = st.columns(2)
     by_type = df.groupby('Type of transaction').count().sort_values('pkey',ascending=False)['pkey']
     by_sector = df.groupby('Sector').count().sort_values('pkey',ascending=False)['pkey']
