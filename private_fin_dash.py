@@ -21,7 +21,7 @@ continent_list = list(set(filtered_geo['continent']))
 metric_dict = {'Count':'count', 'Amount in Millions':'amount_usd'}
 
 #tabs general, geographic, single companies
-tab1,tab2,tab3 = st.tabs(['General','Geographic','Single Companies'])
+tab1,tab3,tab2 = st.tabs(['General','Geographic','Company Overview'])
 
 #general metrics count and total
 with tab1:
@@ -89,7 +89,7 @@ with tab1:
 
 
 
-with tab2:
+with tab3:
     st.header('Geography Dashboard')
     selected_metric_m = st.selectbox(label = 'Select Geographic Metric',options = ['Count','Amount in Millions'])
     selected_metrics = metric_dict[selected_metric_m]
@@ -131,7 +131,7 @@ with tab2:
 #single company all info written
 #selected_companies = st.multiselect()
 
-with tab3:
+with tab2:
     st.header('Company Overview')
     selected_companies = st.multiselect('Select Companies to Analyze', company_list,[company_list[0]])
     filtered_df = df[df['Company'].isin(selected_companies)]
