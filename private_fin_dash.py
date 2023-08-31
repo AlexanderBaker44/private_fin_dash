@@ -91,18 +91,20 @@ with tab2:
     st.header('Company Overview')
     selected_companies = st.multiselect('Select Companies to Analyze', company_list,[company_list[0]])
     filtered_df = df[df['Company'].isin(selected_companies)]
+    if filtered_df.empty == False:
+        st.subheader('Company Investors')
+        lgdf = filtered_df.groupby('Company').agg({'Lead Investor': lambda x: list(x)[0],'Other Investor': lambda x: list(set(x))[0], 'Notes': lambda x: list(set(x))[0]})
+        st.table(lgdf)
 
-    st.subheader('Company Investors')
-    lgdf = filtered_df.groupby('Company').agg({'Lead Investor': lambda x: list(x)[0],'Other Investor': lambda x: list(set(x))[0], 'Notes': lambda x: list(set(x))[0]})
-    st.table(lgdf)
-
-    st.subheader('Investment Amount in Millions')
-    fgdf = filtered_df[['Company','amount_usd','Country']].groupby(['Company']).sum()
-    if sum(fgdf['amount_usd']) > 0:
-        fgdf['amount_usd'].plot(kind = 'bar', ylabel = 'Amount in Millions')
-        st.pyplot()
+        st.subheader('Investment Amount in Millions')
+        fgdf = filtered_df[['Company','amount_usd','Country']].groupby(['Company']).sum()
+        if sum(fgdf['amount_usd']) > 0:
+            fgdf['amount_usd'].plot(kind = 'bar', ylabel = 'Amount in Millions')
+            st.pyplot()
+        else:
+            st.write('There is no investment amount found for the selected company')
     else:
-        st.write('There is no investiment amount found for the selected company')
+        st.write('Please Select a Company')
 
 with tab3:
     st.header('Geography Dashboard')
