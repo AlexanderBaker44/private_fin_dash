@@ -132,7 +132,7 @@ with tab2:
 #selected_companies = st.multiselect()
 
 with tab3:
-    st.header('Singular Company Overview')
+    st.header('Company Overview')
     selected_companies = st.multiselect('Select Companies to Analyze', company_list,[company_list[0]])
     filtered_df = df[df['Company'].isin(selected_companies)]
 
