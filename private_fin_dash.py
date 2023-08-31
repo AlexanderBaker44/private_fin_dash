@@ -53,7 +53,7 @@ with tab1:
         by_sector_s = df[['Stage','amount_usd']].dropna().groupby('Stage').sum().sort_values('amount_usd',ascending=False)['amount_usd']
 
 
-    st.subheader('Time Analysis')
+    st.subheader('Monthly Analysis')
     figt, mnxt = plt.subplots(1, 1)
     time_investor.plot(kind = 'line', figsize = (20,10), title = 'Investments Made Over Time', ylabel = f'{selected_metric_m}')
     st.pyplot()
