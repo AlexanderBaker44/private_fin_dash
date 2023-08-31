@@ -21,7 +21,7 @@ continent_list = list(set(filtered_geo['continent']))
 metric_dict = {'Count':'count', 'Amount in Millions':'amount_usd'}
 
 #tabs general, geographic, single companies
-tab1,tab3,tab2 = st.tabs(['General','Geographic','Company Overview'])
+tab1,tab2,tab3 = st.tabs(['General','Company Overview','Geographic'])
 
 #general metrics count and total
 with tab1:
