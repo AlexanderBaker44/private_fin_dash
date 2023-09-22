@@ -93,7 +93,7 @@ with tab2:
     filtered_df = df[df['Company'].isin(selected_companies)]
     if filtered_df.empty == False:
         st.subheader('Company Investors')
-        lgdf = filtered_df.groupby('Company').agg({'Lead Investor': lambda x: list(x)[0],'Other Investor': lambda x: list(set(x))[0], 'Notes': lambda x: list(set(x))[0]})
+        lgdf = filtered_df.groupby('Company').agg({'Lead Investor': lambda x: list(x)[0],'Other Investor': lambda x: list(set(x))[0]})
         st.table(lgdf)
 
         st.subheader('Investment Amount in Millions')
